@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3002;
+const port = 8080;
 app.get("/", (req,res)=>{
     let result = {
         id:12,
@@ -10,5 +10,5 @@ app.get("/", (req,res)=>{
 })
 
 app.listen(port, () => {
-    console.log("App is listening");
+    console.log("App is listening"+port);
 })
