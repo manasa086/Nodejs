@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const port = 3002;
-app.get("/user-list", (req,res)=>{
+app.get("/", (req,res)=>{
     let result = {
         id:12,
         name:'User List'
